@@ -1,0 +1,5 @@
+PROMPT 1 (A* Generation):
+"I am implementing a simple goal-based search agent in Python. The environment is an ASCII grid where S is the start, G is the goal, # is an obstacle, and . is a free cell. The agent moves up, down, left, right with a cost of 1. Implement A* search. Use Manhattan distance as the heuristic. The program should represent grid positions as (row, col) tuples, maintain a priority queue frontier, avoid repeatedly expanding the same state, and return the path, path length, and number of expanded states."
+
+PROMPT 2 (BFS Extension & Refactoring):
+"Modify the previous search function to take an algorithm parameter. If 'bfs' is passed, implement a blind Breadth-First Search using a deque, ensuring we track the same evaluation metrics (path length, states expanded) so I can compare them."
